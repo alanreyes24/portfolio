@@ -1,24 +1,41 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/header";
+import AboutMe from "./components/aboutme/aboutme.js";
 
 function App() {
   return (
-    <div className="App">
-      <Header>Hello</Header>
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
+    <>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+          fontFamily: "Arial, sans-serif",
+          marginTop: "50px",
+          marginBottom: "50px",
+          marginLeft: "100px",
+          marginRight: "100px",
+        }}
       >
-        Learn React
-      </a>
-    </div>
+        <AboutMe />
+        <div
+          style={{
+            overflow: "scroll",
+            width: "50%",
+            height: "100%",
+            backgroundColor: "aqua",
+            // border: 1px black solid,
+            // padding: 2%,
+            // width: 300px,
+            // margin: 0 auto,
+            // white-space: nowrap,
+            // font-size: large,
+          }}
+        >
+          Scroll
+        </div>
+      </div>
+    </>
   );
 }
 
