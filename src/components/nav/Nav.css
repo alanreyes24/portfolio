@@ -1,0 +1,8 @@
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: pink;
+  z-index: 1000;
+  height: 3rem;
+  display: flex;
+}
