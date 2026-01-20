@@ -1,13 +1,31 @@
 body {
   background-color: #3b82f6;
   color: white;
+  margin: 2rem;
 }
 
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 6fr 7fr;
+  justify-items: center;
 }
 
 .name {
   font-size: 3rem;
+}
+
+.left-side {
+  margin: 1rem;
+}
+.right-side {
+  margin: 1rem;
+}
+
+.about-me {
+  font-size: 20px;
+  background-color: purple;
+}
+
+.name {
+  font-size: 4rem;
 }
